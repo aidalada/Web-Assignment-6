@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - Part 2</title>
+    <style>
+        #task3-box {
+            width: 300px;
+            height: 100px;
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Part 2. DOM Manipulation</h1>
+
+    <h2>Task 2. Changing Content</h2>
+    <p id="text-to-change">Original paragraph text.</p>
+    <button onclick="changeText()">Click to Change Text</button>
+
+    <hr>
+
+    <h2>Task 3. Changing Styles</h2>
+    <div id="task3-box">
+        This block will change color and font size.
+    </div>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    <button onclick="changeFontSize()">Change Font Size</button>
+
+    <hr>
+
+    <h2>Task 4. Creating & Removing Elements</h2>
+    
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Last Item</button>
+    
+    <ul id="item-list">
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+
+    <script src="../js/part2.js"></script>
+</body>
+</html>
